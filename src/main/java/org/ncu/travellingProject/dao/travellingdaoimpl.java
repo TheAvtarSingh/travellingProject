@@ -89,7 +89,7 @@ public class travellingdaoimpl implements travellingdao {
 		// TODO Auto-generated method stub
 		String query = "insert into hotelowner values(?,?,?,?,?)";
 		Random random = new Random();
-		int id = random.nextInt(100, 1000);
+		int id = random.nextInt(1000);
 		
 		Object records[] = {id,owner.getOwnerName(),owner.getOwneraddress(),owner.getOwnernumber(),owner.getOwneremail() };
 		jdbcTemplate.update(query, records);
