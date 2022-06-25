@@ -103,6 +103,14 @@
 			<artifactId>hibernate-validator-annotation-processor</artifactId>
 			<version>6.2.3.Final</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.jsimone/webapp-runner -->
+<dependency>
+    <groupId>com.github.jsimone</groupId>
+    <artifactId>webapp-runner</artifactId>
+    <version>8.5.47.2</version>
+    <scope>provided</scope>
+</dependency>
+
 	</dependencies>
 
 	<repositories>
@@ -130,6 +138,7 @@
     <artifactId>maven-war-plugin</artifactId>
     <version>3.3.1</version>
 </plugin>
+			
 		</plugins>
 	</build>
 </project>
