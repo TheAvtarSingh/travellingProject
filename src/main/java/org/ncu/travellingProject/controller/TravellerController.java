@@ -159,7 +159,7 @@ public class TravellerController {
 	@RequestMapping("/BookMe")
 	public String BookMe( Model m) {
 		Random random = new Random();
-		int id = random.nextInt(0,1000);
+		int id = random.nextInt(1000);
 		m.addAttribute("hotelid",id);
 		m.addAttribute("name","User");
 			return "enterDetails";
